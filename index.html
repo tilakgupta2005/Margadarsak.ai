@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margadarsak</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="menu-icon">
+        <button id="sideexpand">☰</button>
+      </div>
+      <div class="icons">
+        <div class="icon">
+          <button id="theme-toggle" data-description="Dark/Light Theme">🌙</button>
+        </div>
+        <div class="icon">
+          <button id="helpbutton" data-description="Help">❓</button>
+        </div>
+        <div class="icon">
+          <button id="about" data-description="About">ℹ️</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Navbar -->
+      <div class="navbar">
+        <h1 class="title">Margadarsak</h1>
+      </div>
+
+      <!-- Chat Section -->
+      <div class="chat-container">
+        <div class="chat-history" id="chat-history"></div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="message-box">
+          <input 
+            type="text" 
+            id="message-input" 
+            placeholder="Type your message here..."
+          >
+          <button id="send-button">➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
