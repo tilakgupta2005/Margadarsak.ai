@@ -1,3 +1,6 @@
+"scripts": {
+  "start": "node ai.js"
+}
 {
   "name": "margadarsak.ai",
   "version": "1.0.0",
